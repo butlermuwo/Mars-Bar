@@ -53,6 +53,8 @@ I have put a live demo link below in the following section so that if anyone is 
 👤 **Butler Shimaluwani**
 
 - GitHub: [@butlermuwo](https://github.com/butlermuwo)
+- Twitter: [@butlermuwo](https://twitter.com/ButlerMuwo)
+- LinkedIn: [@butlermuwo](https://www.linkedin.com/in/butlermuwo/)
 
 ## 🤝 Contributing
 

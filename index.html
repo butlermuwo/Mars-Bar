@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+<link href="main.css" rel="stylesheet">
+    <title>Mars Bar</title>
+</head>
+<body>
+    <header class="heading"><img class="coffee-img" src="coffee_masters_logo.png" alt="a logo of a cup of coffee"> <h3 class="name">Mars Bar</h3></h3></header>
+    <main>
+        <section class="cards">
+            <div class="items">
+                <div class="item">
+                    <span>1x</span>
+                    <h3>Cappuccino</h3>
+                    <h3>$3.35</h3>
+                </div>
+                <div class="flavor">
+                    <h4>Lite foam</h4>
+                </div>
+                <div class="item">
+                    <span>1x</span>
+                    <h3>Cappuccino</h3>
+                    <h3>$3.85</h3>
+                </div>
+                <div class="flavor">
+                    <h4>Lite milk</h4>
+                    <h4>Double expresso</h4>
+                </div>
+                <div class="item">
+                    <span>1x</span>
+                    <h3>Croissant</h3>
+                    <h3>$2.45</h3>
+                </div>
+                <div class="flavor">
+                    <h4>Butter</h4>
+                </div>
+            </div>
+            <div class="name">
+                <label for="name" class="input-name">Name for Order</label>
+                <input id="name" class="name-input" placeholder="choose your order" type="text">
+            </div>
+            <div class="payment">
+                <label for="cardNumber" class="card-number">Card number</label>
+                <input id="cardNumber" class="card-input" placeholder="1234 5678 9012 3456" type="number">
+                <label for="ccvNumber" class="ccv-number">CCV Number</label>
+                <input id="ccvNumber" class="ccv-input" placeholder="001" type="number">
+            </div>
+        </section>
+        <section>
+            <div class="sum-total">
+                <div class="sub-total"><h3>Subtotal</h3><h3>$9.65</h3></div>
+                <div class="sub-total"><h3>Tax</h3><h3>$0.82</h3></div>
+                <div class="sub-total"><h3>Total</h3><h3>$10.47</h3></div>
+            </div>
+            <div>
+                <button class="order-btn">Place order</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
